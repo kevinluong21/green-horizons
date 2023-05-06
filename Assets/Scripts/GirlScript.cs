@@ -24,7 +24,6 @@ public class GirlScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        Debug.Log("kajhdsfhgafj");
     }
 
     // Update is called once per frame
@@ -39,8 +38,8 @@ public class GirlScript : MonoBehaviour
         {
             animator.SetBool("isWalking", false);
         }
-        
-        
+
+        rb.velocity = moveInput * m_moveSpeed; 
 
     }
 
@@ -51,7 +50,6 @@ public class GirlScript : MonoBehaviour
         if (count == 0)
         {
             Vector2 moveVector = direction * m_moveSpeed * Time.fixedDeltaTime;
-            rb.MovePosition(rb.position + moveVector);
             return true;
         } else
         {
@@ -69,11 +67,5 @@ public class GirlScript : MonoBehaviour
             animator.SetFloat("YInput", moveInput.y);
         } 
         
-    }
-
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log(collision.gameObject.name);
     }
 }
