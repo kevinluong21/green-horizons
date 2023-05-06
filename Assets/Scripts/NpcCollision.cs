@@ -8,12 +8,14 @@ public class NpcCollision : MonoBehaviour
     public GameObject exclamationMark;
     [SerializeField] private GameObject dialogue;
     [SerializeField] private DialogueObject testDialogue;
+    [SerializeField] private GameObject profilePic;
     private bool collided = false;
     // Start is called before the first frame update
     void Start()
     {
         exclamationMark.SetActive(false);
         dialogue.SetActive(false);
+        profilePic.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class NpcCollision : MonoBehaviour
             exclamationMark.SetActive(false);
             dialogue.SetActive(true);
             dialogue.GetComponent<DialogueUI>().ShowDialogue(testDialogue);
+            profilePic.SetActive(true);
         }
     }
 
@@ -38,6 +41,6 @@ public class NpcCollision : MonoBehaviour
     {
         exclamationMark.SetActive(false);
         collided = false;
-
+        profilePic.SetActive(false);
     }
 }
