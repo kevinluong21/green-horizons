@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6a8175cb1e36b47aa941a23a00f0683d
+guid: b716ddeab65c841e28fbc63ada85d347
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,12 +105,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grass_0
+      name: Tilled Dirt_0
       rect:
         serializedVersion: 2
         x: 0
         y: 96
-        width: 96
+        width: 48
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -119,146 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cfa05d246be94fe59adbb811030ee05
-      internalID: 828044416
+      spriteID: 5065430e4764f4df9a9135158858c28b
+      internalID: -1157220688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grass_1
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 34
-        width: 12
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 986e31377cfc243a1a0cd0b1ff6675d2
-      internalID: -165002032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass_2
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 82
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10248071a448147f799c9c59fe9cd375
-      internalID: 127353203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass_3
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 82
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfa88ae369c2141658960d9762803e4e
-      internalID: -1883412083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass_4
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 81
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67626854ba6e345d0a7725fb8bbe4760
-      internalID: -263275899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass_6
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 34
-        width: 44
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbdfdf690e2d5406dab07a7949f73ad1
-      internalID: -36668292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass_7
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 18
-        width: 60
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3bce04e65119f4416b2ac107ba7996ce
-      internalID: -1702746985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass_8
+      name: Tilled Dirt_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 64
-        height: 16
+        y: 80
+        width: 48
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95d66eb84b22c49f6a7bc670e5b92a8f
-      internalID: -1040404287
+      spriteID: 8f538a6611f02453ba5e5d466b80aa21
+      internalID: 2054611952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grass_5
+      name: Tilled Dirt_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 16
+        x: 3
+        y: 43
+        width: 10
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,81 +161,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25f1cb837337544cc9235f6e3c76999c
-      internalID: -2124993438
+      spriteID: d3fc8938e35c9484884731e2973e6a41
+      internalID: 430411566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grass_9
+      name: Tilled Dirt_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fb32a5c9ece643a595df26c0f2d1a13
-      internalID: 786244967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass_10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 65
-        width: 30
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7560b81ea204e4d85a54e5876c504df6
-      internalID: 2062175246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass_11
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 82
-        width: 28
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a21f72ed427e94830b5fcc6e294e6d8e
-      internalID: 607054964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass_12
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 2
+        x: 26
+        y: 42
         width: 28
         height: 28
       alignment: 0
@@ -371,8 +182,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e881906a0e3304c75b3ca68934e529a4
-      internalID: -1370212180
+      spriteID: 09b495e8102f04660b8f4680047fc5a5
+      internalID: -644344439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilled Dirt_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4984dcd33adb45e38a3bd305b1994f5
+      internalID: 1451425967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilled Dirt_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 19
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392d29b2a8fba40918d22dc6f7ae716e
+      internalID: 1985960967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilled Dirt_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a15dd8f889d4bee99299370334943f
+      internalID: 893924585
       vertices: []
       indices: 
       edges: []
@@ -388,19 +262,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Grass_0: 828044416
-      Grass_1: -165002032
-      Grass_10: 2062175246
-      Grass_11: 607054964
-      Grass_12: -1370212180
-      Grass_2: 127353203
-      Grass_3: -1883412083
-      Grass_4: -263275899
-      Grass_5: -2124993438
-      Grass_6: -36668292
-      Grass_7: -1702746985
-      Grass_8: -1040404287
-      Grass_9: 786244967
+      Tilled Dirt_0: -1157220688
+      Tilled Dirt_1: -303511626
+      Tilled Dirt_2: 2054611952
+      Tilled Dirt_3: 430411566
+      Tilled Dirt_4: -644344439
+      Tilled Dirt_5: 1451425967
+      Tilled Dirt_6: 1985960967
+      Tilled Dirt_7: 893924585
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
